@@ -1,0 +1,46 @@
+.heading {
+    width: 100%;
+    font-size: 23px;
+    box-shadow: 5px 5px 5px darkblue;
+    margin: 0px;
+}
+
+.note {
+    color: black;
+    font-weight: bold;
+    font-size: 15px !important;
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+    text-shadow: 5px 5px 5px black;
+}
+
+canvas {
+    border: 5px solid black;
+    animation-name: rainbow;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    border-radius: 15px;
+}
+
+@keyframes rainbow {
+    from,to{box-shadow: 0px 0px 15px red;}
+    10%{box-shadow: 0px 0px 15px orangered;}
+    20%{box-shadow: 0px 0px 15px orange;}
+    30%{box-shadow: 0px 0px 15px yellow;}
+    40%{box-shadow: 0px 0px 15px yellowgreen;}
+    50%{box-shadow: 0px 0px 15px green;}
+    60%{box-shadow: 0px 0px 15px darkgreen;}
+    70%{box-shadow: 0px 0px 15px darkcyan;}
+    80%{box-shadow: 0px 0px 15px blue;}
+    90%{box-shadow: 0px 0px 15px darkblue;}
+    100%{box-shadow: 0px 0px 15px purple;}
+}
